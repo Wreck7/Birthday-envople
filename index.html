@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="envelope-wrapper">
+        <div class="envelope">
+          <div class="letter">
+            <div class="text">
+              <strong>Dear Vidhur</strong>
+              <p>
+                "Happy Birthday to my amazing little brother! 🎉 You’re growing
+                up so fast, Watching you grow has been a joy. May this year
+                bring you countless smiles, and all the bliss you deserve, Keep
+                shining. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Have an
+                incredible day!"
+              </p>
+              <strong
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-
+                Vishwa</strong
+              >
+            </div>
+          </div>
+        </div>
+        <div class="heart"></div>
+      </div>
+    </div>
+
+    <script>
+      const envelope = document.querySelector(".envelope-wrapper");
+      const heart = document.querySelector(".heart");
+      heart.addEventListener("click", () => {
+        envelope.classList.toggle("flap");
+      });
+    </script>
+  </body>
+</html>
